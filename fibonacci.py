@@ -27,7 +27,8 @@ def fib2(n):
 def fib3(n):
     """fib3 implements the closed form formula"""
     phi = (1.0 + math.sqrt(5.0))/2.0
-    return int((phi**n - (1-phi)**n)/math.sqrt(5))
+#    return int((phi**n - (1-phi)**n)/math.sqrt(5))
+    return int(phi**n / math.sqrt(5) + 0.5)
 
 def fib4(n):
     """fib4 recurses but only once per level"""
