@@ -2,6 +2,7 @@
 
 * [Python 3 Documentation Home](https://docs.python.org/3/)
 * [Index of modules](https://docs.python.org/3/py-modindex.html)
+* [Alphabetical General Index](https://docs.python.org/3/genindex.html)
 
 # Interesting PEPs
 
@@ -10,6 +11,20 @@
 # Articles
 
 * [3 Easy Ways to Find the Length of a List in Python](https://www.digitalocean.com/community/tutorials/find-the-length-of-a-list-in-python)
+* [Official datastructures tutorial](https://docs.python.org/3/tutorial/datastructures.html)
+* The python exception hierarchy and advice when to use each one is in the [exceptions library](https://docs.python.org/3/library/exceptions.html#exception-hierarchy)
+
+# Lists
+
+Lists don't have all their methods described in one place!
+
+* https://docs.python.org/3/library/stdtypes.html#list
+* https://docs.python.org/3/library/stdtypes.html#typesseq-common
+* https://docs.python.org/3/library/stdtypes.html#typesseq-mutable
+
+The [`sorted`](https://docs.python.org/3/library/functions.html#sorted) function returns a new sorted list from an iterable.
+
+* [List Comprehensions Tutorial](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
 
 # Virtualenv/venv
 
