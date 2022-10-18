@@ -2,6 +2,9 @@
 """Five fibonacci implementations
 """
 
+# I'm not using snake-case everywhere deliberately
+# pylint: disable=C0103
+
 import inspect
 import math
 import numpy
@@ -13,8 +16,7 @@ def fib1(n):
     """fib1 implements a simple recursive fibonacci function"""
     if n in (1, 2):
         return 1
-    else:
-        return fib1(n-1) + fib1(n-2)
+    return fib1(n-1) + fib1(n-2)
 
 def fib2(n):
     """fib2 implements a iterative fibonacci function"""
@@ -33,6 +35,7 @@ def fib3(n):
 def fib4(n):
     """fib4 recurses but only once per level"""
     def helper(prev, prev2, n):
+        # pylint: disable=no-else-return
         if n == 1:
             return prev2
         elif n == 2:
