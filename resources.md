@@ -13,6 +13,7 @@
 * [PEP 257 — Docstring Conventions](https://peps.python.org/pep-0257/)
 * [PEP 308 — Conditional Expressions](https://peps.python.org/pep-0308/)
 * [PEP 498 – Literal String Interpolation](https://peps.python.org/pep-0498/)
+* [PEP 502 – String Interpolation - Extended Discussion](https://peps.python.org/pep-0502/)
 * [PEP 3101 — Advanced String Formatting # Standard Format Specifiers](https://peps.python.org/pep-3101/#standard-format-specifiers)
 
 # Articles/Questions
@@ -25,6 +26,16 @@
 * The syntax of [conditional expressions](https://docs.python.org/3/reference/expressions.html#index-88) is very simple and inside-out
 * A [slash signifies the end of /positional only/ parameters](https://stackoverflow.com/questions/24735311/what-does-the-slash-mean-in-help-output)
 * [`del` is a statement](https://docs.python.org/3/reference/simple_stmts.html#index-21) not a function!
+* [Reverse a string in Python](https://stackoverflow.com/questions/931092/reverse-a-string-in-python)
+
+## Why is `len(l)` a function and not a method?
+
+Summary: Guido said so!
+
+* [Canonicals for "Why isn't len() a method in Python?" and Python len()-related things](https://meta.stackoverflow.com/questions/373073/canonicals-for-why-isnt-len-a-method-in-python-and-python-len-related-th)
+* [Why does Python code use len() function instead of a length method?](https://stackoverflow.com/questions/237128/why-does-python-code-use-len-function-instead-of-a-length-method/237312#237312)
+* [Why Does Python Have a len() Function?](https://andrewbrookins.com/technology/why-does-python-have-a-len-function/)
+
 
 # Lists
 
