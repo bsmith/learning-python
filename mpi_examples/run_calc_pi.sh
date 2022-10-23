@@ -2,4 +2,6 @@
 
 set -e -x
 
-exec mpiexec -n 10 python -m mpi4py calc_pi.py
+NPROCS=${NPROCS:-10}
+
+exec mpiexec -n $NPROCS python -m mpi4py calc_pi.py
